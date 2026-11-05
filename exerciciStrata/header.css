@@ -1,0 +1,15 @@
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+.navbar a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; 
+  text-decoration: none;
+}
+.navbar p {
+  margin: 0;
+}
