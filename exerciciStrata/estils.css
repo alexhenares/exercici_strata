@@ -243,3 +243,98 @@ body {
         width: 100%;
     }
 }
+.platform {
+    background-color: #fbfbfa;
+    padding: 110px 0 130px;
+    scroll-margin-top: 68px;
+}
+.platform .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.platform-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    margin: 0 0 8px;
+    letter-spacing: 1px;
+    color: #777e8b;
+    margin-bottom: 5px;
+}
+.platform-title {
+    font-size: 44px;
+    font-weight: 500;
+    margin-top: 0;
+    letter-spacing: -2px;
+    color: #292b30;
+    margin: 0 0 25px;
+}
+.platform-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+.platform-card {
+    flex: 1;
+    padding: 35px;
+    min-width: 0;
+    min-height: 275px;
+    border: 1px solid;
+    border-radius: 14px;
+    box-sizing: border-box;
+}
+.platform-card h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #292b30;
+    margin: 0 0 20px;
+}
+.platform-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #777e8b;
+    margin: 0;
+}
+.atlas  {
+    background: linear-gradient(to bottom, #edf6efbd, #fbfbfa);
+    border-color: #cfe5d6;
+}
+.nexus {
+    background: linear-gradient(to bottom, #eaf0fab6, #fbfbfa);
+    border-color: #cbdaf0;
+}
+.canvas {
+    background: linear-gradient(to bottom, #f3e9f7bb, #fbfbfa);
+    border-color: #e2cce9;
+}
+.platform-core {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #f5f5f4;
+    border: 1px solid #e5e5e5;
+    border-radius: 14px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.platform-core h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #292b30;
+    margin: 0;
+    min-width: 200px;
+}
+.platform-core p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #777e8b;
+    margin: 0;
+}
+@media (max-width: 767px) {
+    .platform-cards {
+        flex-direction: column;
+    }
+}
