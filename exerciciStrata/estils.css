@@ -91,6 +91,22 @@ body {
     transform: translateY(-2px);
     cursor: pointer;
 }
+@media (max-width: 767px) {
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 20px;
+        height: auto;
+    }
+
+    .nav-links {
+        display: none;
+    }
+    .nav-search p:first-child {
+        display: none;
+    }
+}
 .hero {
     position: relative;
     isolation: isolate;
@@ -195,7 +211,6 @@ body {
     background: linear-gradient(to right, #9bd6ad, #72b9ff);
     border-radius: 15px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-
 }
 .hero-image img {
     display: block;
@@ -225,22 +240,6 @@ body {
     }
     .hero {
         height: auto;
-    }
-}
-@media (max-width: 767px) {
-    .navbar {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 10px 20px;
-        height: auto;
-    }
-
-    .nav-links {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
     }
 }
 .platform {
@@ -336,5 +335,54 @@ body {
 @media (max-width: 767px) {
     .platform-cards {
         flex-direction: column;
+    }
+    .platform-core {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 25px;
+    }
+    .platform-core h3 {
+        min-width: 0;
+    }
+    .platform-core p {
+        width: 100%;
+    }
+}
+.message {
+    padding: 80px 20px;
+    background:
+    radial-gradient(ellipse at 0% 100%, #dfead4, transparent 55%),
+    radial-gradient(ellipse at 100% 0%, #e0eaf8, transparent 55%),
+     #f4f3ef;
+}
+
+.message .container {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.message h2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #292b30;
+    margin: 0 0 20px;
+}
+
+.message p {
+    font-size: 22px;
+    color: #666666;
+    margin: 0;
+}
+@media (max-width: 767px) {
+    .message {
+        padding: 60px 20px;
+    }
+    .message h2 {
+        font-size: 23px;
+    }
+    .message p {
+        font-size: 18px;
     }
 }
