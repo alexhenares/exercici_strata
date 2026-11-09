@@ -234,7 +234,7 @@ body {
     background: transparent;
     pointer-events: none;
 }
-@media (max-width: 767px), (prefers-reduced-motion: reduce) {
+@media (max-width: 767px) {
     .hero-graph {
         display: none !important;
     }
@@ -275,6 +275,8 @@ body {
     justify-content: center;
     gap: 20px;
     width: 100%;
+    transition: box-shadow 0.3s ease,
+    transform 0.3s ease;
 }
 .platform-card {
     flex: 1;
@@ -284,6 +286,12 @@ body {
     border: 1px solid;
     border-radius: 14px;
     box-sizing: border-box;
+    transition: box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+.platform-card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
 }
 .platform-card h3 {
     font-size: 24px;
