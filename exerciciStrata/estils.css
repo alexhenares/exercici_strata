@@ -517,3 +517,138 @@ body {
     padding: 3px 12px;
     white-space: nowrap;
 }
+@media (max-width: 767px) {
+    .operational-value {
+        padding: 90px 20px;
+    }
+    .operational-title {
+        font-size: 28px;
+        margin-bottom: 45px;
+    }
+    .operational-panel {
+        padding: 25px 20px;
+    }
+    .panel-top {
+        gap: 15px;
+        font-size: 10px;
+    }
+    .panel-metrics {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .metric-number {
+        font-size: 56px;
+    }
+    .metric-symbol {
+        font-size: 48px;
+    }
+    .metric-unit {
+        font-size: 24px;
+    }
+}
+.from-field {
+    background:
+        radial-gradient(ellipse at 85% 10%, #263d32, transparent 55%),
+        #0e0f13;
+
+    padding: 110px 30px;
+    color: white;
+}
+.from-field .container {
+    max-width: 1136px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.field-content {
+    flex: 1;
+}
+.field-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.field-header p {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #a1a1aa;
+}
+.field-gradient {
+    width: 36px;
+    height: 7px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #8bd68f, #3888ff);
+}
+.field-number {
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 25px 0 5px;
+}
+.field-subtitle {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #a1a1aa;
+    margin: 0 0 40px;
+}
+.field-description {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #a1a1aa;
+    margin: 0 0 35px;
+}
+.field-footer {
+    border-top: 1px solid #303036;
+    padding-top: 25px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #888891;
+} 
+.field-card {
+    width: 440px;
+    flex-shrink: 0;
+    border: 1px solid #303036;
+    border-radius: 14px;
+    background-color: #1a1b1d;
+    overflow: hidden;
+}
+.field-card-gradient {
+    height: 2px;
+    background: linear-gradient(to right,
+        #e9ca55,
+        #65c999,
+        #498cff,
+        #a05ce7
+    );
+}
+.field-card-content {
+    padding: 28px;
+}
+.field-card-title {
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 2px;
+    font-size: 11px;
+    color: #a1a1aa;
+    margin: 0 0 20px;
+}
+.field-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0;
+    border-top: 1px solid #303036;
+}
+.field-row span {
+    color: #a1a1aa;
+    font-size: 14px;
+}
+.field-row strong {
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    white-space: nowrap;
+}
