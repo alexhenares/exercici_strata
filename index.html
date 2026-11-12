@@ -4,29 +4,67 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Strata — Exercici004</title>
-        <link rel="icon" href="assets/img/strata-icon.svg" type="image/svg+xml">
-        <link rel="stylesheet" href="assets/fonts/fonts.css">
-        <link rel="stylesheet" href="estils.css">
-        <script defer src="assets/js/vendor/three.min.js"></script>
-        <script defer src="assets/js/vendor/3d-force-graph.min.js"></script>
-        <script defer src="assets/js/hero-graph.js"></script>
+        <link rel="icon" href="exerciciStrata/assets/img/strata-icon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="exerciciStrata/assets/fonts/fonts.css">
+        <link rel="stylesheet" href="workflows.css">
     </head>
     <body>
         
 
 
 
-        <section class="workflows">
-            <h2>Every automation, accountable by name</h2>
-            <p class="workflows__intro">Each workflow we run is a named automation...</p>
-
-            <div class="workflows__list">
-                <article class="workflow">
-                <h3>Invoice management</h3>
-                <p>The e-billing layer of your firm, run by agents: guideline compliance before an invoice goes out, deduction analysis when it comes back, and the portal work in between.</p>
-                </article>
-                
+        <section class="workflows section" id="workflows" aria-labelledby="workflows-title">
+            <div class="container">
+                <header class="section-heading">
+                <p class="eyebrow">Workflows we run</p>
+                <h2 id="workflows-title">Every automation, accountable by name.</h2>
+                <p class="intro workflows-intro">Strata operates underneath the billable work, not against it. The workflows on this page are clerical, operational, or administrative. You accept the work when it meets the bar.</p>
+                </header>
+                <ul class="workflow-list">
+                <li class="workflow">
+                    <div class="workflow-label"><span class="badge">WF · INVOICE MGMT</span></div>
+                    <div class="workflow-copy">
+                    <h3><a href="#get-started">Invoice management<span class="arrow" aria-hidden="true">→</span></a></h3>
+                    <p>The e-billing layer of your firm, run by agents: guideline compliance before an invoice goes out, deduction analysis when it comes back, and the portal work in between.</p>
+                    </div>
+                </li>
+                <li class="workflow workflow-child">
+                    <div class="workflow-label"><span class="badge badge-child"><span aria-hidden="true">↳ </span>Appeals</span></div>
+                    <div class="workflow-copy">
+                    <h3><a href="#get-started">Invoice appeals<span class="arrow" aria-hidden="true">→</span></a></h3>
+                    <p>Every reduction analyzed against the invoice and the client’s guidelines. Every appeal narrative drafted for attorney review. Nothing is auto-submitted. The money you’ve been writing off, pursued at machine scale.</p>
+                    </div>
+                </li>
+                <li class="workflow">
+                    <div class="workflow-label"><span class="badge">WF · COLLECTIONS</span></div>
+                    <div class="workflow-copy">
+                    <h3><a href="#get-started">Billing follow-up and collections<span class="arrow" aria-hidden="true">→</span></a></h3>
+                    <p>Proformas chased before they go stale, aged AR worked in 30, 60, and 90 day buckets, client-facing sends approved by a person. Every day of lock-up is working capital your partners are lending interest-free.</p>
+                    </div>
+                </li>
+                <li class="workflow">
+                    <div class="workflow-label"><span class="badge">WF · LATERAL</span></div>
+                    <div class="workflow-copy">
+                    <h3><a href="#get-started">Lateral onboarding<span class="arrow" aria-hidden="true">→</span></a></h3>
+                    <p>The unbilled drag between signing a lateral and their book billing here: conflicts questionnaires, client and matter transfers, timekeeper and billing setup, systems access. Weeks become days.</p>
+                    </div>
+                </li>
+                <li class="workflow">
+                    <div class="workflow-label"><span class="badge">WF · TRUST</span></div>
+                    <div class="workflow-copy">
+                    <h3><a href="#get-started">Trust accounting and reconciliation<span class="arrow" aria-hidden="true">→</span></a></h3>
+                    <p>Three-way reconciliation on schedule instead of when someone finds time, unclaimed-funds aging, disbursement checks. The work that gets firms disciplined when it slips.</p>
+                    </div>
+                </li>
+                <li class="workflow">
+                    <div class="workflow-label"><span class="badge">WF · BACK OFFICE</span></div>
+                    <div class="workflow-copy">
+                    <h3><a href="#get-started">Back office<span class="arrow" aria-hidden="true">→</span></a></h3>
+                    <p>AR, AP, payroll support, records and document management. High-volume, rule-heavy, and exactly what agents are for.</p>
+                    </div>
+                </li>
+                </ul>
             </div>
-        </section>
+            </section>
     </body>
 </html>

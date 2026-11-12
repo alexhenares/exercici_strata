@@ -1,1 +1,0 @@
-# exercici_strata
