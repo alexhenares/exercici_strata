@@ -394,3 +394,120 @@ body {
         font-size: 18px;
     }
 }
+.operational-value {
+    padding: 110px 48px 90px;
+    background-color: #ffffff;
+}
+.operational-value .container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.operational-value .metric-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.operational-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 24px;
+}
+.gradient-bar {
+    display: inline-block;
+    width: 38px;
+    height: 8px;
+    border-radius: 99px;
+    background: linear-gradient(90deg, #4ade80, #2563eb);
+}
+.gradient-bar-small {
+    display: block;
+    width: 20px;
+    height: 4px;
+    border-radius: 99px;
+    background: linear-gradient(90deg, #4ade80, #2563eb);
+    margin-bottom: 10px;
+}
+.operational-label {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #64748b;
+}
+.operational-title {
+    margin: 0 0 60px 0;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #1e293b;
+    margin-bottom: 44px;
+}
+.operational-panel {
+    border-radius: 22px;
+    border: 1.5px solid transparent;
+    background:
+        linear-gradient(#ffffff, #ffffff) padding-box,
+        linear-gradient(90deg, #86efac 0%, #93c5fd 55%, #3b82f6 100%) border-box;
+    box-shadow: 0 12px 35px rgba(15, 23, 42, 0.05);
+    padding: 28px 40px 40px;
+}
+.panel-top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #64748b;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f1f5f9;
+    margin-bottom: 32px;
+}
+.panel-metrics {
+  display: flex;
+  gap: 40px;
+}
+.metric-box {
+  flex: 1;
+}
+.metric-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #64748b;
+    margin-bottom: 12px;
+}
+.metric-number {
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #1e293b;
+    margin-bottom: 12px;
+}
+.metric-symbol {
+    font-size: 46px;
+    color: #94a3b8;
+    margin-right: 2px;
+}
+.metric-unit {
+    font-size: 28px;
+    color: #94a3b8;
+}
+.metric-description {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 12px;
+}
+.metric-badge {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background:
+        linear-gradient(90deg, #dcfce7 0%, #dbeafe 100%) padding-box,
+        linear-gradient(90deg, #86efac 0%, #93c5fd 100%) border-box;
+    color: #1e293b;
+    font-size: 11.5px;
+    font-weight: 500;
+    padding: 3px 12px;
+}
