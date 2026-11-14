@@ -2434,8 +2434,9 @@ body {
 }
 
 .get-started .button:hover {
-    background: #3c4b5f;
-    color: #fff;
+    box-shadow: 0 6px 18px rgba(45, 110, 255, 0.4);
+    transform: translateY(-2px);
+    cursor: pointer;
 }
 
 .get-started .text-link {
